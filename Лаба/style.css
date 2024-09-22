@@ -24,7 +24,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: Trebuchet MS;
-	background-color: black;
+	background-color: rgb(43, 43, 43);
 }
 main{
 	padding: 20px;
@@ -79,4 +79,17 @@ progress:after {
 	content: attr(value) '%';
     color:black;
 	font-weight: bold;
+}
+.box {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	gap: 20px;
+}
+.box1 {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	gap: 50px;
+	padding-right: 45px;
 }
